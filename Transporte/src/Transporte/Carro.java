@@ -1,0 +1,30 @@
+package Transporte;
+/**
+ *
+ * @author Victor Manuel -1302
+ */
+public class Carro extends Terrestre {
+    private String cor;
+    private String placa;
+    private int marcha;
+    
+    public Carro(String ncor, String nplaca){
+        
+        super(4);
+        cor = ncor;
+        placa = nplaca;
+        marcha = 0; 
+    }
+    public int GetMarcha(){
+        return marcha;
+    }
+    public void TrocarMarcha(int novaMarcha){
+        marcha = novaMarcha;
+    }
+    public void Acelerar(){
+        velocidade += marcha * 10;
+    }
+    public void Frear(){
+        velocidade -= marcha * 10;
+    }
+}
