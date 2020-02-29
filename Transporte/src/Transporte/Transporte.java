@@ -1,7 +1,7 @@
 package Transporte;
 /**
  *
- * @author Victor Manuel -1302
+ * @author aluno
  */
 public class Transporte {
     protected int capacidade;

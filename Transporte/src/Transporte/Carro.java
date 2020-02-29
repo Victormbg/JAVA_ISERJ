@@ -1,8 +1,5 @@
 package Transporte;
-/**
- *
- * @author Victor Manuel -1302
- */
+
 public class Carro extends Terrestre {
     private String cor;
     private String placa;
